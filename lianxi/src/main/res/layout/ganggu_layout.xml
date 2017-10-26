@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--中多了几个属性 分别以ptr开头，这是指定pullToRefreshListView在刷新的时候出现的特效，
+ 比如ptrDrawable第一个是指定刷新时显示的图片，ptrAnimationStyle第二个是指定刷新的图片以何种方式显示出来，
+ ptrHeaderBackground第三个是指定刷新时头部的背景，ptrHeaderTextColor第四个是指定刷新时头部字体的颜色。-->
+
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/refresh_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrDrawable="@drawable/default_ptr_flip"
+        ptr:ptrHeaderBackground="#383838"
+        ptr:ptrHeaderTextColor="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <lianxi.com.yuekao_lianxi.View.MyListView
+                android:id="@+id/scroll_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </lianxi.com.yuekao_lianxi.View.MyListView>
+        </LinearLayout>
+
+
+    </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+
+</LinearLayout>

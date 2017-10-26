@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Mytest2.iml" filepath="$PROJECT_DIR$/../Mytest2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day_13demo1/day_13demo1.iml" filepath="$PROJECT_DIR$/../day_13demo1/day_13demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mashuaijie/mashuaijie.iml" filepath="$PROJECT_DIR$/../mashuaijie/mashuaijie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullToRefreshlibrary.iml" filepath="$PROJECT_DIR$/pullToRefreshlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../thirdweekexamdemo/thirdweekexamdemo.iml" filepath="$PROJECT_DIR$/../thirdweekexamdemo/thirdweekexamdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../toutiao/toutiao.iml" filepath="$PROJECT_DIR$/../toutiao/toutiao.iml" />
+    </modules>
+  </component>
+</project>
